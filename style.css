@@ -1,0 +1,201 @@
+body {
+    background-color: black;
+}
+
+.main-box {
+    clear: both;
+    float: left;
+    width: 160px;
+    height: 160px;
+    background-color: white;
+}
+
+.main-box .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main-box .row-circles {
+    clear: both;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.ver-block {
+    float: left;
+    width: 35px;
+}
+
+.hor-block {
+    clear: both;
+}
+
+.block {
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+}
+
+.hor-block .block {
+    float: left;
+}
+
+.star::before {
+    content: "☆";
+    font-size: 25px;
+    position: relative;
+    top: -1px;
+    left: 4px;
+}
+
+.up-arrow::before {
+    content: '\2191';
+    font-size: 25px;
+    padding-left: 10px;
+    font-family: arial;
+}
+
+.down-arrow::before {
+    content: '\2193';
+    font-size: 25px;
+    padding-left: 10px;
+    font-family: arial;
+}
+
+.left-arrow::before {
+    content: '\2190';
+    font-size: 25px;
+    padding-left: 4px;
+    font-family: arial;
+}
+
+.right-arrow::before {
+    content: '\2192';
+    font-size: 25px;
+    padding-left: 4px;
+    font-family: arial;
+}
+
+.middle {
+    position: absolute;
+    top: 218px;
+    left: 218px;
+    height: 111px;
+    width: 103px;
+}
+
+.right,
+.left,
+.top,
+.bottom {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 53px;
+    display: block;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
+.right,
+.left {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.top,
+.bottom {
+    margin: 0 auto;
+}
+
+.top {
+    border-top-color: green;
+    margin-bottom: -108px;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+.right {
+    border-right-color: yellow;
+    margin-left: -55px;
+    margin-right: 2px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.bottom {
+    border-bottom-color: blue;
+    margin-top: -99px;
+    margin-right: -5px;
+}
+
+.left {
+    border-left-color: red;
+    margin-right: -51px;
+    margin-left: 4px;
+    margin-top: -2px;
+}
+
+.red {
+    background-color: red;
+    color: red;
+}
+
+.red-maze .main-box {
+    border: 31px solid red;
+}
+
+.green {
+    background-color: green;
+    color: green;
+}
+
+.green-maze {
+    width: 292px;
+}
+
+.green-maze .main-box {
+    border: 31px solid green;
+}
+
+.yellow {
+    background-color: yellow;
+    color: yellow;
+}
+
+.yellow-maze {
+    width: 292px;
+}
+
+.yellow-maze .main-box {
+    border: 31px solid yellow;
+}
+
+.blue {
+    background-color: blue;
+    color: blue;
+}
+
+.blue-maze .main-box {
+    border: 31px solid blue;
+}
+
+h1 {
+    color: #ffc107;
+}
+
+.love {
+    color: #1fc8db;
+    font-size: 14px;
+}
+
+.author {
+    color: #1fc8db;
+    font-size: 14px;
+}
